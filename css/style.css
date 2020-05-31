@@ -164,7 +164,7 @@ h6 {
   position: relative;
 /*  background: url("../img/intro-bg1.jpg") center bottom no-repeat;*/
    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* the gradient on top, adjust color and opacity to your taste */
-  url("../img/intro-bg1.jpg");
+  url("../img/intro-bg.jpg");
   background-size: cover;
   padding: 150px 0 120px 0;
 }
@@ -1400,5 +1400,21 @@ h6 {
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+}
+
+.heading {
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 20px
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .heading {
+    font-size: 17px;
   }
 }
